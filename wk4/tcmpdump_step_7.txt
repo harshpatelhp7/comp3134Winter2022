@@ -1,0 +1,15 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/usr# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+22:50:22.296089 IP 162.243.188.66.38240 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1136748099, win 501, options [nop,nop,TS val 1948618406 ecr 4245092507], length 0
+22:50:22.298533 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.38240: Flags [P.], seq 1:65, ack 0, win 501, options [nop,nop,TS val 4245092522 ecr 1948618406], length 64
+22:50:22.298755 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.38240: Flags [P.], seq 65:193, ack 0, win 501, options [nop,nop,TS val 4245092522 ecr 1948618406], length 128
+22:50:22.298871 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.38240: Flags [P.], seq 193:257, ack 0, win 501, options [nop,nop,TS val 4245092523 ecr 1948618406], length 64
+22:50:22.311477 IP 162.243.188.66.38240 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 65, win 501, options [nop,nop,TS val 1948618422 ecr 4245092522], length 0
+22:50:22.311478 IP 162.243.188.66.38240 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 193, win 501, options [nop,nop,TS val 1948618422 ecr 4245092522], length 0
+22:50:22.311868 IP 162.243.188.66.38240 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 257, win 501, options [nop,nop,TS val 1948618422 ecr 4245092523], length 0
+22:50:23.082539 IP 193.27.229.86.44724 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.21211: Flags [S], seq 4113214030, win 1024, length 0
+22:50:23.896712 IP 5.188.206.18.51445 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.13672: Flags [S], seq 3495958155, win 1024, length 0
+22:50:30.255657 IP hosting-by.4cloud.mobi.54929 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.60151: Flags [S], seq 3076598010, win 1024, length 0
+22:50:37.462758 IP 162.243.188.66.38240 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 257, win 501, options [nop,nop,TS val 1948633572 ecr 4245092523], length 0
+22:50:37.462820 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.38240: Flags [.], ack 0, win 501, options [nop,nop,TS val 4245107687 ecr 1948618422], length 0
+22:50:42.064425 IP 45.155.205.49.49762 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.4083: Flags [S], seq 1479155309, win 1024, length 0
