@@ -1,0 +1,13 @@
+harsh@Harsh MINGW64 ~
+$ ping 143.198.38.161
+
+Pinging 143.198.38.161 with 32 bytes of data:
+Reply from 143.198.38.161: bytes=32 time=12ms TTL=52
+Reply from 143.198.38.161: bytes=32 time=67ms TTL=52
+Reply from 143.198.38.161: bytes=32 time=414ms TTL=52
+Reply from 143.198.38.161: bytes=32 time=33ms TTL=52
+
+Ping statistics for 143.198.38.161:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 12ms, Maximum = 414ms, Average = 131ms

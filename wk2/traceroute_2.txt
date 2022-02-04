@@ -1,0 +1,21 @@
+harsh@Harsh MINGW64 ~
+$ tracert 143.198.38.161
+
+Tracing route to 143.198.38.161 over a maximum of 30 hops
+
+  1     5 ms     4 ms     8 ms  mynetwork [192.168.2.1]
+  2    33 ms    16 ms     5 ms  10.50.44.50
+  3     *        *        *     Request timed out.
+  4    83 ms     9 ms    30 ms  cr01-toroon4765w_0/2/0/4_11.net.bell.ca [142.124.127.68]
+  5    10 ms     5 ms    16 ms  tcore3-toronto47-bundle-ether48.net.bell.ca [142.124.127.152]
+  6     *        7 ms     *     tcore1-torontoxn_ae1.net.bell.ca [64.230.51.150]
+  7     3 ms    16 ms    12 ms  bx1-torontoxn_et1-0-0.net.bell.ca [64.230.97.157]
+  8   132 ms     6 ms    13 ms  ix-ae-9-0.tcore2.tnk-toronto.as6453.net [63.243.172.25]
+  9    59 ms     5 ms     3 ms  if-ae-2-2.tcore1.tnk-toronto.as6453.net [64.86.33.89]
+ 10   220 ms     4 ms    38 ms  63.243.172.34
+ 11     4 ms    16 ms     4 ms  138.197.249.91
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14    24 ms     9 ms    10 ms  143.198.38.161
+
+Trace complete.
