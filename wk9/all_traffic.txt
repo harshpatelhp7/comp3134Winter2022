@@ -1,0 +1,4 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt install net-tools
+
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# netstat > all_traffic_20220309_1214
