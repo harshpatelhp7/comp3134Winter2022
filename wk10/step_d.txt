@@ -1,0 +1,5 @@
+this is what appears on the browser
+
+failed to open  directory error 
+
+i guess the directory structure is a bit sensitive info
