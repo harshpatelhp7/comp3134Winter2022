@@ -1,0 +1,4 @@
+1. It displays the meaning realated to that english word
+2. Displays No results found for 'word' header.
+3. it display the results found related to <script>alert(%27hello%27)</script>
+4)It shows the result for <script>alert('hello')</script> 
